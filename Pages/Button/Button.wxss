@@ -1,0 +1,15 @@
+/* Pages/Button/Button.wxss */
+.showBtn{
+  margin: 5px;
+}
+
+.itemBtn{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.itemDiv{
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

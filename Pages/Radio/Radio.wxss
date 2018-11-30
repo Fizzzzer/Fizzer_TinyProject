@@ -1,0 +1,5 @@
+/* Pages/Radio/Radio.wxss */
+.radioitem{
+  width: 100%;
+  height: 45rpx;
+}

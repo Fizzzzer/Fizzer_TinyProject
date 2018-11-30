@@ -1,0 +1,8 @@
+<view>
+  <button class='btnclass' type='primary' bindtap='navToButton'>Button</button>
+  <button class='btnclass' type='primary' bindtap='navToCheckBox'>CheckBox</button>
+  <button class='btnclass' type='primary' bindtap='navToInput'>Input</button>
+  <button class='btnclass' type='primary' bindtap='navToPicker'>Picker</button>
+  <button class='btnclass' type='primary' bindtap='navToRadio'>Radio</button>
+  <button class='btnclass' type='primary' bindtap='navToMedia'>媒体类组件</button>
+</view>

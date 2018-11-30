@@ -1,0 +1,14 @@
+<!--Pages/Media/Media.wxml-->
+<view>
+  <text>音频播放器</text>
+</view>
+<audio src="{{musicSrc}}" poster="{{posterUrl}}" name="{{name}}" author="{{authorName}}" controls='true'></audio>
+
+<view>
+  <view>
+    <text>视频播放器</text>
+  </view>
+  <label>
+    <video src="{{videosrc}}" autoplay="true"></video>
+  </label>
+</view>

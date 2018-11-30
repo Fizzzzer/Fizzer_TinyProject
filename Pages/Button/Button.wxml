@@ -1,0 +1,9 @@
+<!--Pages/Button/Button.wxml-->
+<button class='showBtn' disabled="{{disabled}}" loading='{{load}}' plain='{{plain}}' type='{{type}}'>演示Button</button>
+<button class='itemBtn' bindtap='setBtnDisable'>设置按钮不可点击</button>
+<button class='itemBtn' bindtap='setBtnLoad'>设置按钮的加载样式</button>
+<button class='itemBtn' bindtap='setBtnPlain'>设置按钮镂空</button>
+<button class='itemBtn' bindtap='setType'>改变按钮样式warn</button>
+
+<button class='itemDiv' open-type='share'>分享</button>
+<button class='itemBtn' open-type='contact'show-message-card="true">显示回话内卡片</button>

@@ -1,0 +1,4 @@
+.checkbox{
+  color: black;
+  text-align: center
+}

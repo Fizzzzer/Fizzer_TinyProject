@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "Pages/HelloWorld/helloworld",
+    "Pages/CheckBox/CheckBox",
+    "Pages/Button/Button",
+    "Pages/Input/Input",
+    "Pages/Picker/Picker",
+    "Pages/Radio/Radio",
+    "Pages/Media/Media"
+  ]
+}

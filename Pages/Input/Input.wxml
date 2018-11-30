@@ -1,0 +1,9 @@
+<!--Pages/Input/Input.wxml-->
+<input class="input" value="Fizzer"></input>
+<input class="input" type='number' placeholder='数字输入框'></input>
+<input class="input" type='idcard' placeholder='身份证输入框'></input>
+<input class="input" type='digit' placeholder='小数输入框'></input>
+<input class="input" type='digit' placeholder='输入框禁用' disabled='true'></input>
+<input class="input" type="text" placeholder='右下角文字为完成' confirm-type="done"></input>
+<input class="input" type="text" placeholder='输入框的最大长度为5' maxlength='5'></input>
+<input class="input" type="text" placeholder='输入框点击的时候上推页面' adjust-position="false"></input>

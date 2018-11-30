@@ -1,0 +1,10 @@
+/* Pages/Input/Input.wxss */
+
+.input {
+  border: 2rpx solid gray;
+  height: 75rpx;
+  border-radius: 10rpx;
+  margin: 5rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}

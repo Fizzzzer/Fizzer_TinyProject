@@ -1,0 +1,10 @@
+<!--Pages/Radio/Radio.wxml-->
+<text>单选框</text>
+
+<radio-group bindchange="radiochange" >
+  <label class='radioitem' wx:for-items="{{items}}">
+    <radio checked='{{items[index].check}}' value='{{items[index].name}}'>{{items[index].value}}</radio>
+  </label>
+</radio-group>
+
+<text>当前选择了{{chickItems}}</text>

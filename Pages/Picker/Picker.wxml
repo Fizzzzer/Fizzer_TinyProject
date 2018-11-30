@@ -1,0 +1,32 @@
+<!--Pages/Picker/Picker.wxml-->
+<view>
+  <text class='text'>普通选择器</text>
+
+  <picker class='picker' value='{{index}}' range='{{items}}' bindchange='commonPicker'>
+   <label class='text'>当前选择{{items[index]}}</label>
+  </picker>
+</view>
+
+<view>
+  <text class='text'>时间选择器</text>
+
+  <picker class='picker' mode="time" bindchange='pickeTime' value='00:00'>
+   <label class='text'>当前选择时间{{time}}</label>
+  </picker>
+</view>
+
+<view>
+  <text class='text'>日期选择器</text>
+
+  <picker class='picker' mode="date" bindchange='pickeDate' value='2018-11-30'>
+   <label class='text'>当前选择日期{{date}}</label>
+  </picker>
+</view>
+
+<view>
+  <text class='text'>省市区选择器</text>
+
+  <picker class='picker' mode="region" bindchange='pickeregion'>
+   <label class='text'>当前选择的省市区{{region}}</label>
+  </picker>
+</view>
