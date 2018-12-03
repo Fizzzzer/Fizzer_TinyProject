@@ -12,3 +12,13 @@
     <video src="{{videosrc}}" autoplay="true"></video>
   </label>
 </view>
+
+<view>
+  <view>
+    <text>openData组件</text>
+  </view>
+  <label>
+
+    <open-data class="media" type="userAvatarUrl"></open-data>
+  </label>
+</view>
