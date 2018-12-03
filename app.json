@@ -6,6 +6,7 @@
     "Pages/Input/Input",
     "Pages/Picker/Picker",
     "Pages/Radio/Radio",
-    "Pages/Media/Media"
+    "Pages/Media/Media",
+    "Pages/Map/Map"
   ]
 }

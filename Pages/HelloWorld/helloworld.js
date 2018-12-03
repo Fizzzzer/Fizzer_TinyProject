@@ -31,5 +31,11 @@ Page({
     wx.navigateTo({
       url: '/Pages/Media/Media',
     })
+  },
+  navToMap(e){
+    wx.navigateTo({
+      url: '/Pages/Map/Map',
+    })
   }
+
 })
