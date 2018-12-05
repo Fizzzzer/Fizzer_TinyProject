@@ -10,6 +10,7 @@
   </view>
   <label>
     <video src='{{videosrc}}' enable-danmu danmu-btn controls></video>
+
   </label>
 </view>
 
@@ -18,7 +19,6 @@
     <text>openData组件</text>
   </view>
   <label>
-
     <open-data class="media" type="userAvatarUrl"></open-data>
   </label>
 </view>

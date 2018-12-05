@@ -1,0 +1,9 @@
+<!--Pages/Image/Image.wxml-->
+<view>
+  <view class='image_select_top'>
+    <view class='image_select_form'>
+      <view class='image'>图片来源</view>
+      <picker class='image'>相册</picker>
+    </view>
+  </view>
+</view>

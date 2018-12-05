@@ -1,0 +1,19 @@
+/* Pages/Image/Image.wxss */
+.image_select_top{
+  width: 100%;
+  border-top: 2rpx solid #f4f4f4;
+  padding-left: 15rpx;
+  margin-top: 100rpx;
+}
+
+.image_select_form{
+  width: 100%;
+  height: 45rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 2rpx solid #f4f4f4;
+}
+
+.image{
+  display: inline;
+}

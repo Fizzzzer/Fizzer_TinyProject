@@ -1,0 +1,37 @@
+/* Pages/Api_SelectAlbum/Api_SelectAlbum.wxss */
+
+.view_content {
+  width: 100vh;
+  height: 100vh;
+  background-color: blanchedalmond;
+}
+
+.view_top {
+  width: 100%;
+  background-color: white;
+  border-top: 2rpx solid #f4f4f4;
+  border-bottom: 2rpx solid #f4f4f4;
+  padding-left: 15px;
+}
+
+.view_item {
+  display: flex;
+  height: 45px;
+  width: 100%;
+  border-bottom: 2rpx solid #f4f4f4;
+  align-items: center;
+  justify-items: center;
+}
+
+.font_style {
+  
+}
+
+.view_first_tip {
+  width: 100px;
+}
+
+.view_picker {
+  margin-left: 15px;
+  width: 100%
+}

@@ -1,0 +1,30 @@
+<!--Pages/Api_SelectAlbum/Api_SelectAlbum.wxml-->
+<view class='view_content'>
+  <view class='view_top'>
+    <view class='view_item'>
+      <view class='view_first_tip font_style'>图片来源</view>
+      <picker class='view_picker' 
+      range='{{selectAlbums}}' 
+      value='{{selectAlbumsIndex}}'  
+      range-key='name'
+      bindchange='albumSlect'>{{selectAlbums[selectAlbumsIndex].name}}</picker>
+    </view>
+
+    <view class='view_item'>
+      <view class='view_first_tip font_style'>图片质量</view>
+      <picker class='view_picker'
+      range='{{compress}}'
+      range-key='name'
+      value='{{compressIndex}}'
+      bindchange='compressChange'>{{compress[compressIndex].name}}</picker>
+    </view>
+
+    <view class='view_item'>
+      <view class='view_first_tip font_style'>数量限制</view>
+      <picker class='view_picker'
+      range='{{pictureCounts}}'
+      value='{{pictureIndex}}'
+      bindchange='countSelect'>{{pictureCounts[pictureIndex]}}</picker>
+    </view>
+  </view>
+</view>

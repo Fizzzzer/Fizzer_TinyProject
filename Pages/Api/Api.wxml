@@ -1,0 +1,2 @@
+<!--Pages/Api/Api.wxml-->
+<button class='btnclass' type='primary' bindtap='navToAlbum'>选择图片</button>

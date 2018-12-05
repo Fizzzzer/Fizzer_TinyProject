@@ -34,13 +34,15 @@ Page({
   },
 
   navToView(e){
-    wx.navigateTo({
+    wx.switchTab({
       url: '/Pages/View/View',
     })
   },
+
   navToMap(e){
     wx.navigateTo({
       url: '/Pages/Map/Map',
     })
   }
+
 })

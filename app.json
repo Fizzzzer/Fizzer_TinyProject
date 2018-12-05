@@ -8,30 +8,40 @@
     "Pages/Radio/Radio",
     "Pages/Media/Media",
     "Pages/View/View",
-    "Pages/Map/Map"
+    "Pages/Map/Map",
+    "Pages/Api_SelectAlbum/Api_SelectAlbum",
+    "Pages/Api/Api"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Fizzer",
+    "navigationBarTitleText": "Fizzer的小程序",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
   },
   "tabBar": {
-    "color":"#2c2c2c",
+    "color": "#2c2c2c",
     "selectedColor": "#d81e06",
-    "list": [{
-      "pagePath": "Pages/HelloWorld/helloworld",
-      "text": "主页",
-      "iconPath": "Image/home.png",
-      "selectedIconPath": "Image/home_select.png"
-    },{
-      "pagePath": "Pages/View/View",
-      "text": "个人中心",  
-      "iconPath": "Image/center.png",
-      "selectedIconPath": "Image/center_select.png"
-    }]
+    "list": [
+      {
+        "pagePath": "Pages/View/View",
+        "text": "练习",
+        "iconPath": "Image/center.png",
+        "selectedIconPath": "Image/center_select.png"
+      },
+      {
+        "pagePath": "Pages/HelloWorld/helloworld",
+        "text": "组件",
+        "iconPath": "Image/home.png",
+        "selectedIconPath": "Image/home_select.png"
+      },
+      {
+        "pagePath": "Pages/Api/Api",
+        "text": "Api",
+        "iconPath": "Image/api.png",
+        "selectedIconPath": "Image/api_select.png"
+      }
+    ]
   }
-
 }
