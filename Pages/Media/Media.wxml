@@ -9,7 +9,7 @@
     <text>视频播放器</text>
   </view>
   <label>
-    <video src="{{videosrc}}" autoplay="true"></video>
+    <video src='{{videosrc}}' enable-danmu danmu-btn controls></video>
   </label>
 </view>
 
