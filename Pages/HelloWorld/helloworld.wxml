@@ -6,4 +6,6 @@
   <button class='btnclass' type='primary' bindtap='navToRadio'>Radio</button>
   <button class='btnclass' type='primary' bindtap='navToMedia'>媒体类组件</button>
   <button class='btnclass' type='primary' bindtap='navToView'>小程序布局练习</button>
+  <button class='btnclass' type='primary' bindtap='navToMap'>地图类组件</button>
+
 </view>

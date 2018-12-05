@@ -32,9 +32,15 @@ Page({
       url: '/Pages/Media/Media',
     })
   },
+
   navToView(e){
     wx.navigateTo({
       url: '/Pages/View/View',
     })
   },
+  navToMap(e){
+    wx.navigateTo({
+      url: '/Pages/Map/Map',
+    })
+  }
 })
