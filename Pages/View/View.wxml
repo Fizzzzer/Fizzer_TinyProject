@@ -1,0 +1,13 @@
+<!--Pages/View/View.wxml-->
+<view class='item'>
+  <view class='item_all item_1'>
+  <text>1</text>
+  </view>
+  <view class='item_all item_2'>
+    <text>2</text>
+  </view>
+  
+  <view class='item_all item_3'>
+    <text>3</text>
+  </view>
+</view>

@@ -6,6 +6,31 @@
     "Pages/Input/Input",
     "Pages/Picker/Picker",
     "Pages/Radio/Radio",
-    "Pages/Media/Media"
-  ]
+    "Pages/Media/Media",
+    "Pages/View/View"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Fizzer",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color":"#2c2c2c",
+    "selectedColor": "#d81e06",
+    "list": [{
+      "pagePath": "Pages/HelloWorld/helloworld",
+      "text": "主页",
+      "iconPath": "Image/home.png",
+      "selectedIconPath": "Image/home_select.png"
+    },{
+      "pagePath": "Pages/View/View",
+      "text": "个人中心",  
+      "iconPath": "Image/center.png",
+      "selectedIconPath": "Image/center_select.png"
+    }]
+  }
+
 }
