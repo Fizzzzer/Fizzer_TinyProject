@@ -2,6 +2,7 @@
 var sourceType;
 var sizetype;
 var count;
+var imageSrc;
 Page({
 
   /**
@@ -31,6 +32,7 @@ Page({
     pictureIndex:"8",
     currentSelect : "0",
     totalSelect: "9",
+    imageSrc:[],
   },
 
   albumSlect(e) {
@@ -52,6 +54,20 @@ Page({
     this.setData({
       pictureIndex: e.detail.value,
       totalSelect : count,
+    })
+  },
+
+  chooseImg(e){
+    wx.chooseImage({
+      count:5,
+      sizeType: ["original"],
+      sourceType: ["album"],
+      success: function(res) {
+        this.setData({
+          imageSrc:res.tempFilePaths,
+        })
+        imageSrc = res.tempFilePaths;
+      },
     })
   }
 

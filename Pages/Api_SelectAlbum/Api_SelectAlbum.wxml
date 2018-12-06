@@ -22,6 +22,11 @@
       <view class='view_body_top_tip'>点击可预览选好的图片</view>
       <view class='view_body_count_tip'>{{currentSelect}}/{{totalSelect}}</view>
     </view>
-    <view class='view_body_content'></view>
+    <view class='view_body_content'>
+      <view wx:for="{{imageSrc}}">
+        <image class='image_size' src='{{item}}' bindtap='chooseImg'></image>
+      </view>
+      <image class='image_size' src='../../Image/add_pic.png' bindtap='chooseImg'></image>
+    </view>
   </view>
 </view>
