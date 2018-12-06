@@ -28,7 +28,9 @@ Page({
     compressIndex: "0",
 
     pictureCounts: ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
-    pictureIndex:"8"
+    pictureIndex:"8",
+    currentSelect : "0",
+    totalSelect: "9",
   },
 
   albumSlect(e) {
@@ -43,16 +45,14 @@ Page({
     this.setData({
       compressIndex: e.detail.value,
     })
-    console.log(sizetype),
-    console.log(e);
   },
 
   countSelect(e){
-    this.setData({
-      pictureIndex: e.detail.value
-    })
     count = this.data.pictureCounts[e.detail.value];
-    console.log(count)
+    this.setData({
+      pictureIndex: e.detail.value,
+      totalSelect : count,
+    })
   }
 
 })

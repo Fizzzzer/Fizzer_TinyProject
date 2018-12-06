@@ -9,8 +9,8 @@
 .view_top {
   width: 100%;
   background-color: white;
-  border-top: 2rpx solid #f4f4f4;
-  border-bottom: 2rpx solid #f4f4f4;
+  border-top: 2px solid #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
   padding-left: 15px;
 }
 
@@ -34,4 +34,31 @@
 .view_picker {
   margin-left: 15px;
   width: 100%
+}
+
+.view_body{
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid #f4f4f4;
+  border-top: 2px solid #f4f4f4;
+  margin-top: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.view_body_top{
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+
+}
+.view_body_top_tip{
+  background-color: red;
+}
+.view_body_count_tip{
+  background-color: blue;
+
 }
